@@ -1,0 +1,26 @@
+{
+  "name": "romme",
+  "version": "1.0.0",
+  "description": "College rommate finder",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "SpiderWeb",
+  "license": "ISC",
+  "dependencies": {
+    "connect-ensure-login": "^0.1.1",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "http": "0.0.0",
+    "mongoose": "^5.4.5",
+    "node": "^11.7.0",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "semantic-ui": "^2.4.2"
+  }
+}

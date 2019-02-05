@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #e6e6e6;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    font-size: 14px;
+    }
+
+.container {
+    border-style: solid;
+    border-width: thick;
+    border-color: #dce0e6;
+    position: relative;
+    max-width: 1100px;
+    padding: 40px 0px 40px 0px;
+    overflow: visible;
+    margin: 0 auto;
+    background: #f0f5ff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+.row {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+#header {
+    margin-top: 20px;
+}
+
+.ui.selection.dropdown {
+    margin-top: 7px;
+}
+
+
+#submit-btn {
+    margin-right: 15px;
+}
+  
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.ui.header {
+    color:#386dff;
+  }

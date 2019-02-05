@@ -1,0 +1,66 @@
+body {
+  font-family: 'Mitr', sans-serif;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../img/home.jpg');
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  color:#fff;
+}
+
+.center-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-container .center-items {
+  transform: translateY(-40px);
+  width: 100%;
+  text-align: center;
+}
+
+.center-container .center-items .user-options {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 5.5rem;
+  white-space: nowrap;
+  font-weight: 50;
+}
+
+
+.ui.animated.button {
+  background-color: rgb(110, 183, 223);
+  width: 160px;
+  margin: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+  color:#fff
+}
+
+#about-us {
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px){
+
+  h1 {
+    font-size: 5rem;
+  }
+
+}

@@ -1,0 +1,267 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #e6e6e6;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    font-size: 14px !important;
+    }
+
+#name {
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateX(-30px);
+  }
+  
+#nameRow {
+    text-align: center;
+  }
+  
+#logout {
+    margin-left: 0em !important;
+    margin-right: 0em;
+  }
+  
+.ui.menu {
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+.container {
+    border-style: solid;
+    border-width: thick;
+    border-color: #dce0e6;
+    position: relative;
+    max-width: 800px;
+    padding: 40px 0px 40px 0px;
+    overflow: visible;
+    margin: 0 auto;
+    background: #f0f5ff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  
+.right-margin {
+    margin-right: 20px;
+  }
+  
+.left-margin {
+    margin-left: 20px;
+  }
+  
+.vline {
+    border-left: 1px solid #14171a;
+    border-right: 1px solid #14171a;
+    height: auto;
+  }
+  
+.top-margin {
+    margin-top: 15px !important;
+  }
+  
+#facebookRow {
+    margin-top: 30px;
+  }
+  
+img {
+    max-height: 200px;
+    width: auto;
+    border-radius: 5%;
+  }
+  
+.ui.grid > .row {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: 0rem;
+  }
+  
+.ui.grid [class*="right floated"].column {
+    margin-left: 0;
+  }
+
+.ui.grid > .column:not(.row), .ui.grid > .row > .column {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+  
+.margin-bottom {
+    margin-bottom: 10px !important;
+  }
+  
+#userImage {
+    width: 150px;
+    border-radius: 5%;
+  }
+  
+.padding-left {
+    padding-left: 40px !important;
+  }
+  
+.c100 > span {
+    color: #14171a;
+  }
+  
+.padding-top {
+    padding-top: 6px !important;
+  }
+  
+.center {
+    text-align: center;
+  }
+
+.margin-q {
+  margin-left: 40px !important;
+  margin-top: 40px !important;
+
+}
+
+.margin-left {
+  margin-left: 50px;
+}
+
+.border {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+  border-bottom: 1px solid #14171a;
+}
+
+.padding-left-pref {
+  padding-left: 50px !important;
+}
+
+.padding-right {
+  padding-right: 10px !important;
+}
+
+.padding-right-content {
+  padding-right: 30px !important;
+}
+
+.padding-bottom-q {
+  padding-bottom: 10px !important;
+}
+
+.padding-top-an {
+  padding-top: 7px;
+}
+
+.top-margin-content {
+  margin-top: 10px !important;
+}
+
+.padding-left-content {
+  padding-left: 80px;
+}
+
+.left-margin-media {
+  margin-left: 20px;
+}
+
+.top-margin-special {
+  margin-top: 20px !important;
+}
+
+
+.ui.header {
+  color:#386dff;
+}
+
+
+#dropdown a {
+  display: none;
+}
+
+#menu {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  #nav-container a {display: none;}
+  #nav-item-container a {display: none;}
+  #nav-item-container.responsive #menu {
+    float: right;
+    display: block;
+    padding-top: 13px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #nav-container #dropdown.show a {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: #dce0e6;
+  }
+
+  #menu {
+    float: right;
+    display: block;
+    padding-top: 13px;
+  }
+
+  #nav-container {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  #name {
+    transform: translateX(10px);
+  }
+
+  #nav-item-container a {display: none;}
+
+}
+
+#dropdown a {
+  display: none;
+}
+
+#menu {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  #nav-container a {display: none;}
+  #nav-item-container a {display: none;}
+  #nav-item-container.responsive #menu {
+    float: right;
+    display: block;
+    padding-top: 13px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #nav-container #dropdown.show a {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: #dce0e6;
+  }
+
+  #menu {
+    float: right;
+    display: block;
+    padding-top: 13px;
+  }
+
+  #nav-container {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  #name {
+    transform: translateX(60px);
+  }
+
+  #nav-item-container a {display: none;}
+
+}
